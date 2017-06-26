@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link href="{% static 'img/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>Plan lekcji</title>
+</head>
+<body>
+    <div id="main">
+        <div class="gora lista">
+            <h1>
+                Plan lekcji
+            </h1><p>
+            Wykonany przez <a href="https://github.com/asdfMaciej">asdfMacieja</a> w Django.
+            </p><hr>
+        </div>
+        <div class="glowna">
+                <div class="flexkolumna">
+                    <a href="nauczyciel/" class="overlay"></a>
+                    <h2>
+                        Plan lekcji wg nauczycieli
+                    </h2>
+                </div>
+                <div class="flexkolumna">
+                    <a href="klasa/" class="overlay"></a>
+                    <h2>
+                        Plan lekcji wg klas
+                    </h2>
+                </div>
+                <div class="flexkolumna">
+                    <a href="sala/" class="overlay"></a>
+                    <h2>
+                        Plan lekcji wg sal lekcyjnych
+                    </h2>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

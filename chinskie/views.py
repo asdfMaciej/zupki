@@ -7,7 +7,8 @@ import re
 def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźĘęćłńóśĄŻŹĆŁŃÓŚ \n\.]', '', _str)
 
 def index(request):
-    return HttpResponse(str(dbhandler.get_all('class', '3f')))
+    template = loader.get_template('zupki/index.html')
+    return HttpResponse(template.render({}, request))
 
 def columns(request):
     return HttpResponse(str(dbhandler.get_column_names()))
