@@ -34,7 +34,7 @@ def actually_screw_django(dct):
         for key, value in value.items():
             str_val = ""
             if value:
-                str_val = '<i>'+value[0]+'<br/>'+value[1]+'<br/></i><b>'+value[11]+'</b><br/>'+value[2]
+                str_val = '<i>'+value[0]+'<br/>'+value[1]+'<br/></i><b>'+value[11]+'</b><br/>'+value[2]+'<br/>'
             dictstoocomplicated[n].append(str_val)
         n += 1
     return dictstoocomplicated
@@ -65,4 +65,5 @@ def get_column_names():
 
 def get_teachers():
     return get_query('SELECT DISTINCT teacher_id, teacher from jednostki_lekcyjne;')
-
+def get_classes():
+    return get_query('SELECT DISTINCT class, class_teacher from jednostki_lekcyjne;')
