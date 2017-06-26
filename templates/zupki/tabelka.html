@@ -1,45 +1,54 @@
 {% load staticfiles %}
 <html>
 <head>
-<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link href="{% static 'img/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>Plan lekcji - {{ cotojest }}</title>
 </head>
 <body>
 <div id="main">
     <div class="gora">
-<h1>
-    {{ cotojest }}
-</h1><hr>
+        <h1>
+            {{ cotojest }}
+        </h1><hr>
         </div>
-    <div id="maintabelka">
-<table>
-    <tr>
-        <th>PLAN<br/>LEKCJI</th>
-        <th>1<br/>07:45<br/>08:30</th>
-        <th>2<br/>08:40<br/>09:25</th>
-        <th>3<br/>09:35<br/>10:20</th>
-        <th>4<br/>10:30<br/>11:15</th>
-        <th>5<br/>11:25<br/>12:10</th>
-        <th>6<br/>12:20<br/>13:05</th>
-        <th>7<br/>13:25<br/>14:10</th>
-        <th>8<br/>14:30<br/>15:15</th>
-        <th>9<br/>15:25<br/>16:10</th>
-    </tr>
-    {% for dzien in essential %}
-    <tr>
-        <th><div class="tabelka"><br/>{{ dzien.0|safe }}</div></th>
-        <td><div class="tabelka"><br/>{{ dzien.2|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.3|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.4|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.5|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.6|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.7|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.8|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.9|safe }}</div></td>
-        <td><div class="tabelka"><br/>{{ dzien.10|safe }}</div></td>
-    </tr>
-    {% endfor %}
-</table>
-</div>
+    {% if not empty %}
+        <div id="maintabelka">
+            <table>
+                <tr>
+                    <th>PLAN<br/>LEKCJI</th>
+                    <th>1<br/>07:45<br/>08:30</th>
+                    <th>2<br/>08:40<br/>09:25</th>
+                    <th>3<br/>09:35<br/>10:20</th>
+                    <th>4<br/>10:30<br/>11:15</th>
+                    <th>5<br/>11:25<br/>12:10</th>
+                    <th>6<br/>12:20<br/>13:05</th>
+                    <th>7<br/>13:25<br/>14:10</th>
+                    <th>8<br/>14:30<br/>15:15</th>
+                    <th>9<br/>15:25<br/>16:10</th>
+                </tr>
+                {% for dzien in essential %}
+                <tr>
+                    <th><div class="tabelka"><br/>{{ dzien.0|safe }}</div></th>
+                    <td><div class="tabelka"><br/>{{ dzien.2|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.3|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.4|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.5|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.6|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.7|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.8|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.9|safe }}</div></td>
+                    <td><div class="tabelka"><br/>{{ dzien.10|safe }}</div></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% else %}
+        <h1>
+            Nie odnaleziono {{ czego }}
+        </h1><hr>
+    {% endif %}
     </div>
 </body>
 </html>

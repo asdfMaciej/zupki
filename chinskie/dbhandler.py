@@ -1,7 +1,7 @@
 import sqlite3 as sql3
 import re
 
-def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłńóśĄŻŹĆŁŃÓŚ\/ \n\.]', '', _str)
+def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłęĘńóśĄŻŹĆŁŃÓŚ\/\- \n\.]', '', _str)
 
 def cCol(my_hex):
     r, g, b = tuple(int(my_hex.lstrip('#')[i:i + 2], 16) for i in (0, 2, 4))
@@ -29,9 +29,11 @@ def essential_to_dict(tple):
         prd = int(lsn[8])
         retdict[dzn][prd].append(lsn)
 
-    return retdict
+    empty = not tple
+    return retdict, empty
 
-def actually_screw_django(dct):
+def actually_screw_django(dck):
+    dct, empty = dck
     dictstoocomplicated = []
     n = 0
     for key, value in dct.items():
@@ -52,7 +54,7 @@ def actually_screw_django(dct):
                 str_val += '</table>'
             dictstoocomplicated[n].append(str_val)
         n += 1
-    return dictstoocomplicated
+    return dictstoocomplicated, empty
 
 def get_query(query):
     conn = sql3.connect('baza.db')
@@ -79,6 +81,8 @@ def get_column_names():
     return list(zip(*get_query('PRAGMA table_info(jednostki_lekcyjne);')))[1]
 
 def get_teachers():
-    return get_query('SELECT DISTINCT teacher_id, teacher from jednostki_lekcyjne;')
+    return list(sorted(list(get_query('SELECT DISTINCT teacher_id, teacher from jednostki_lekcyjne;')), key=lambda x: x[1]))
 def get_classes():
     return get_query('SELECT DISTINCT class, class_teacher from jednostki_lekcyjne;')
+def get_classrooms():
+    return get_query('SELECT DISTINCT classroom from jednostki_lekcyjne;')

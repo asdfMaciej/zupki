@@ -22,6 +22,24 @@ div.gora {
     width: 100%;
     padding: 0px;
 }
+div.lista {
+    padding-top: 6px;
+}
+div.glowna {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+div.flexnauczyciel {
+    background-color: #ECEFF1;
+    padding: 32px;
+    margin: 8px;
+    font-size: 120%;
+}
 div#main {
     height: 100%;
     position: relative;
@@ -50,6 +68,6 @@ td.in {
 tr.in {
     padding: 0px;
 }
-h1 {
+h1, h2, h3, h4, p {
     text-align: center;
 }

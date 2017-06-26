@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link href="{% static 'img/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>Lista - {{ cotojest }}</title>
+</head>
+<body>
+    <div id="main">
+        <div class="gora lista">
+            <h1>
+                {{ cotojest }}
+            </h1><p>
+                {{ czego }}
+            </p><hr>
+        </div>
+        <div class="glowna">
+            {% for id, nauczyciel in essential %}
+                <a href="{{ nauczyciel }}/">
+                    <div class="flexnauczyciel">
+                        {% if id %}
+                            <b>{{ nauczyciel }}</b> <i>({{ id }})</i>
+                        {% else %}
+                            <b>{{ nauczyciel }}</b>
+                        {% endif %}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
