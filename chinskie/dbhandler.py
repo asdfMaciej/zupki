@@ -1,12 +1,12 @@
 import sqlite3 as sql3
 import re
 
-def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłńóśĄŻŹĆŁŃÓŚ \n\.]', '', _str)
+def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłńóśĄŻŹĆŁŃÓŚ\/ \n\.]', '', _str)
 
 def cCol(my_hex):
     r, g, b = tuple(int(my_hex.lstrip('#')[i:i + 2], 16) for i in (0, 2, 4))
     a = 1 - float((0.299 * r + 0.587 * g + 0.114 * b) / 255);
-    return '#000000' if a < 0.5 else '#FFFFFF'
+    return '#212121' if a < 0.5 else '#FAFAFA'
     #return '#'+''.join(comp)
 
 def essential_to_dict(tple):
@@ -20,7 +20,7 @@ def essential_to_dict(tple):
         return dzn
 
     retdict = {'Poniedziałek': {}, 'Wtorek': {}, 'Środa': {}, 'Czwartek': {}, 'Piątek': {}}
-    for it in range(9):
+    for it in range(10):
         for key, value in retdict.items():
             retdict[key][it] = []
 
