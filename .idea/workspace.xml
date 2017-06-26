@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3c541d-5836-4028-9b67-325eaf35f662" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zupki/settings.py" afterPath="$PROJECT_DIR$/zupki/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbhandler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbhandler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chinskie/dbhandler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
@@ -90,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zupki/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -854,6 +855,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zupki/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chinskie/dbhandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -861,14 +870,6 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zupki/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
