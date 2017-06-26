@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'plg3u$u6rbl)^5a@j!(_t_=gzmla^jyk7$tv@$m$b!f4yjt+o5'  # you cant tell me how to live
+SECRET_KEY = 'plg3u$u6rbl)^5a@j!(_t_=gzmla^jyk7$tv@$m$b!f4yjt+o5'  # you cant tell me how to live x2
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # not like it'll leave localhost
+DEBUG = False  # nah jk maybe it briefly will
 
 ALLOWED_HOSTS = []
 
@@ -98,7 +98,8 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
