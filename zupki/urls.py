@@ -19,3 +19,4 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^plan/', include('chinskie.urls'))
 ]
+handler404 = 'chinskie.views.custom_404'

@@ -1,9 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d3c541d-5836-4028-9b67-325eaf35f662" name="Default" comment="">
+    <list default="true" id="2d3c541d-5836-4028-9b67-325eaf35f662" name="Default" comment="Making it ready for heroku deploy">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.31652d31b392.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.6b517d0d5813.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/changelists.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/changelists.f6dc691f8d62.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/dashboard.7ac78187c567.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/dashboard.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/fonts.494e4ec545c9.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/fonts.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.15ebfebbeb3d.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.2003a066ae02.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/login.a846c0e2ef65.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/login.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/rtl.4c867197b256.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/rtl.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/widgets.5e372b41c483.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/widgets.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/LICENSE.d273d63619c9.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/LICENSE.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/LICENSE.2c54f4e1ca1c.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/LICENSE.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/README.837277fa1908.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/README.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/calendar-icons.39b290681a8b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/calendar-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_off.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_on.0047eba25b67.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_on.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-addlink.d519b3bab011.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-addlink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-alert.034cc7d8a67f.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-alert.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-calendar.ac7aea671bea.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-calendar.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-changelink.18d2fd706348.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-changelink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-clock.e1d4dfac3f2b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-clock.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-deletelink.564ef9dc3854.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-deletelink.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-no.439e821418cd.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-no.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown-alt.81536e128bb6.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown-alt.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown.a18cb4398978.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-yes.d2f9f035226a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-yes.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/inline-delete.fec1b761f254.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/inline-delete.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/search.7cf54ff789c6.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/search.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/selector-icons.b4555096cea2.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/selector-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/sorting-icons.3a097b59f104.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/sorting-icons.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-add.e59d620a9742.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-add.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-arrowright.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectBox.b49f008d186b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectBox.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectFilter2.17009b6d4428.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectFilter2.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.32861b6cbdf9.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.min.f51f04edab28.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/DateTimeShortcuts.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/RelatedObjectLookups.d2bdb1018963.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/RelatedObjectLookups.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/calendar.9ac94d055fbd.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/calendar.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/cancel.1d69cba4b4bf.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/cancel.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/change_form.9e85003a1a38.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/change_form.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.17d715df2104.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.min.dc930adb2821.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/core.fd861d43f0f5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/core.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.eda404ee376d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.min.d75b9ed03975.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/jquery.init.95b62fa19378.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/jquery.init.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/popup_response.6ce3197f8fc8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/popup_response.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.ff9208865444.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.min.f4057ebb9b62.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate_init.0d3b53c37074.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate_init.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/timeparse.51258861a46a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/timeparse.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/urlify.411bc3bb651c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/urlify.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.aacc43d6f308.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.31652d31b392.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.5af66c1b1797.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.6b517d0d5813.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/changelists.f6dc691f8d62.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/dashboard.7ac78187c567.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/fonts.494e4ec545c9.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/fonts.cc6140298ba7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.15ebfebbeb3d.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.2003a066ae02.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.77b3f8a70811.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/login.a846c0e2ef65.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/rtl.4c867197b256.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/widgets.5e372b41c483.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/widgets.a7251c097987.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/LICENSE.d273d63619c9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/README.2c3d0bcdede2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/fonts/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/LICENSE.2c54f4e1ca1c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/README.837277fa1908.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/calendar-icons.39b290681a8b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/calendar-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_on.0047eba25b67.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/gis/move_vertex_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-addlink.d519b3bab011.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-addlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-alert.034cc7d8a67f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-calendar.ac7aea671bea.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-changelink.18d2fd706348.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-changelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-clock.e1d4dfac3f2b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-deletelink.564ef9dc3854.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-deletelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-no.439e821418cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown-alt.81536e128bb6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown-alt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown.a18cb4398978.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-unknown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-yes.d2f9f035226a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/inline-delete.fec1b761f254.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/inline-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/search.7cf54ff789c6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/selector-icons.b4555096cea2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/selector-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/sorting-icons.3a097b59f104.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/sorting-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-add.e59d620a9742.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-arrowright.bbfb788a849e.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/img/tooltag-arrowright.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectBox.b49f008d186b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectFilter2.17009b6d4428.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.32861b6cbdf9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.min.f51f04edab28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/RelatedObjectLookups.d2bdb1018963.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/calendar.9ac94d055fbd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/cancel.1d69cba4b4bf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/change_form.9e85003a1a38.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/change_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.17d715df2104.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.min.dc930adb2821.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/core.fd861d43f0f5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.eda404ee376d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.min.d75b9ed03975.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/jquery.init.95b62fa19378.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/popup_response.6ce3197f8fc8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/popup_response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.ff9208865444.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.min.f4057ebb9b62.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate_init.0d3b53c37074.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/prepopulate_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/timeparse.51258861a46a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/urlify.411bc3bb651c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.aacc43d6f308.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/css/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zupki/static/staticfiles.json" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/favicon.ico" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chinskie/views.py" afterPath="$PROJECT_DIR$/chinskie/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zupki/settings.py" afterPath="$PROJECT_DIR$/zupki/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zupki/urls.py" afterPath="$PROJECT_DIR$/zupki/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +270,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinskie/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="220">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -27,11 +279,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbhandler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbhandler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinskie/dbhandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="696">
+              <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -39,44 +301,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/zupki/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinskie/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinskie/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,11 +323,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zupki/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding>
+                <element signature="e#639#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zupki/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="70" />
+            <state relative-caret-position="611">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -115,7 +359,7 @@
         <entry file="file://$PROJECT_DIR$/zupki/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#222#231#0" expanded="true" />
               </folding>
@@ -145,7 +389,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/chinskie/models.py" />
-        <option value="$PROJECT_DIR$/zupki/urls.py" />
         <option value="$PROJECT_DIR$/chinskie/templates/zupki/tabelka.html" />
         <option value="$PROJECT_DIR$/chinskie/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/chinskie/templatetags/app_filters.py" />
@@ -154,12 +397,14 @@
         <option value="$PROJECT_DIR$/templates/zupki/tabelka.html" />
         <option value="$PROJECT_DIR$/templates/zupki/lista.html" />
         <option value="$PROJECT_DIR$/chinskie/urls.py" />
-        <option value="$PROJECT_DIR$/chinskie/views.py" />
         <option value="$PROJECT_DIR$/chinskie/dbhandler.py" />
         <option value="$PROJECT_DIR$/static/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/templates/zupki/index.html" />
         <option value="$PROJECT_DIR$/zupki/wsgi.py" />
         <option value="$PROJECT_DIR$/zupki/settings.py" />
+        <option value="$PROJECT_DIR$/chinskie/views.py" />
+        <option value="$PROJECT_DIR$/templates/404.html" />
+        <option value="$PROJECT_DIR$/zupki/urls.py" />
       </list>
     </option>
   </component>
@@ -209,60 +454,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zupki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,9 +684,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -727,16 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zupki/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#639#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/zupki/tabelka.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -785,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinskie/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/zupki/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -811,20 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinskie/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zupki/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#222#231#0" expanded="true" />
           </folding>
@@ -847,7 +1007,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinskie/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/staticfiles.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -857,18 +1017,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zupki/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="70" />
+        <state relative-caret-position="611">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinskie/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chinskie/dbhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="696">
+          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinskie/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinskie/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zupki/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#639#680#0" expanded="true" />
           </folding>
         </state>
       </provider>

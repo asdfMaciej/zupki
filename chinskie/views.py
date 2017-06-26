@@ -13,6 +13,9 @@ def index(request):
 def columns(request):
     return HttpResponse(str(dbhandler.get_column_names()))
 
+def custom_404(request):
+    return render(request, '404.html', {}, status=404)
+
 def class_get(request, klasa):
     japierdole, empty = dbhandler.get_essential('class', klasa)
     context = {
