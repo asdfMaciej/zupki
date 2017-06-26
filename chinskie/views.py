@@ -56,6 +56,20 @@ def teacher_list(request):
     return HttpResponse(template.render(context, request))
 
 def class_list(request):
-    return HttpResponse(str(dbhandler.get_classes()))
+    nauczyciele = dbhandler.get_classes()
+    context = {
+        'essential': nauczyciele,
+        'cotojest': 'Klasy',
+        'czego': 'Lista klas.'
+    }
+    template = loader.get_template('zupki/lista.html')
+    return HttpResponse(template.render(context, request))
 def classroom_list(request):
-    return HttpResponse(str(dbhandler.get_classrooms()))
+    nauczyciele = dbhandler.get_classrooms()
+    context = {
+        'essential': nauczyciele,
+        'cotojest': 'Sale lekcyjne',
+        'czego': 'Lista sal lekcyjnych.'
+    }
+    template = loader.get_template('zupki/lista.html')
+    return HttpResponse(template.render(context, request))

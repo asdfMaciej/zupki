@@ -83,6 +83,9 @@ def get_column_names():
 def get_teachers():
     return list(sorted(list(get_query('SELECT DISTINCT teacher_id, teacher from jednostki_lekcyjne;')), key=lambda x: x[1]))
 def get_classes():
-    return get_query('SELECT DISTINCT class, class_teacher from jednostki_lekcyjne;')
+    return list(sorted(list(get_query('SELECT DISTINCT class_teacher, class from jednostki_lekcyjne;'))))
 def get_classrooms():
-    return get_query('SELECT DISTINCT classroom from jednostki_lekcyjne;')
+    przed = list(sorted(list(get_query('SELECT DISTINCT classroom from jednostki_lekcyjne;'))))
+    po = []
+    for t in przed: po.append(('', t[0]))
+    return po
