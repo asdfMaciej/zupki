@@ -1,7 +1,9 @@
 import sqlite3 as sql3
 import re
+from pprint import pprint
 
-def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłęĘńóśĄŻŹĆŁŃÓŚ\/\- \n\.]', '', _str)
+
+def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźćłęĘńóśĄŻŹĆŁŃÓŚ\/\- \n\.-]', '', _str)
 
 def cCol(my_hex):
     r, g, b = tuple(int(my_hex.lstrip('#')[i:i + 2], 16) for i in (0, 2, 4))
@@ -30,6 +32,7 @@ def essential_to_dict(tple):
         retdict[dzn][prd].append(lsn)
 
     empty = not tple
+    pprint(tple)
     return retdict, empty
 
 def actually_screw_django(dck):
@@ -70,7 +73,7 @@ def get_essential(parameter, _str):
     return actually_screw_django(
         essential_to_dict(
             get_query(
-                'SELECT class, classroom, teacher, d_monday, d_tuesday, d_wednesday, d_thursday, d_friday, period,' +
+                'SELECT class, classroom, teacher, d_monday, d_tuesday, d_thursday, d_wednesday, d_friday, period,' +  # im mentally retarded
                 'period_end, period_start, subject, subject_color from jednostki_lekcyjne WHERE ' +
                 sanitize(parameter) + '="' + sanitize(_str) + '";'
             )

@@ -4,7 +4,7 @@ from chinskie import dbhandler
 from django.template import loader
 import re
 
-def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźĘęćłńóśĄŻŹĆŁŃÓŚ \n\.]', '', _str)
+def sanitize(_str): return re.sub('[^a-zA-Z0-9ążźĘęćłńóśĄŻŹĆŁŃÓŚ \n\.-]', '', _str)
 
 def index(request):
     template = loader.get_template('zupki/index.html')
